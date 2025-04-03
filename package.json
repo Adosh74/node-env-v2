@@ -1,0 +1,22 @@
+{
+  "name": "env-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.11.0",
+    "eslint": "^9.23.0",
+    "eslint-plugin-format": "^1.0.1"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
