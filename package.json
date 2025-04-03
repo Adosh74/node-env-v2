@@ -9,7 +9,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky"
   },
   "dependencies": {
     "ts-node": "^10.9.2",
@@ -18,6 +19,11 @@
   "devDependencies": {
     "@antfu/eslint-config": "^4.11.0",
     "eslint": "^9.23.0",
-    "eslint-plugin-format": "^1.0.1"
+    "eslint-plugin-format": "^1.0.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0"
+  },
+  "lint-staged": {
+    "*": "pnpm lint"
   }
 }
