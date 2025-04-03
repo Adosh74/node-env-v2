@@ -24,4 +24,4 @@ jobs:
           node-version: 22.x
 
       - run: pnpm i
-      - run: pnpm init
+      - run: pnpm lint
