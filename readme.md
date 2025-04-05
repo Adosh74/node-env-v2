@@ -1,4 +1,4 @@
-# node-env-v2
+# node-starter
 
 Starter template for Node.js projects with TypeScript.
 
